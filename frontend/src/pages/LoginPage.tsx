@@ -81,9 +81,9 @@ export default function LoginPage() {
             {submitting ? "Signing in…" : "Sign in →"}
           </button>
 
-          {/* <p className="auth-card__footer">
-            Accounts are created by your Meridian manager. Need access? Contact.
-          </p> */}
+          <p className="auth-card__footer">
+            Accounts are created by Meridian manager. Need access? Contact them.
+          </p>
 
           {/* <div className="auth-secure">
             <IconLock width={13} height={13} /> Secured with signed JWT · role-based access
